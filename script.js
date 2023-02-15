@@ -12,6 +12,7 @@ const WINNING_COMBINATIONS = [  [0, 1, 2],
   [0, 4, 8],
   [2, 4, 6],
 ];
+
 const cellElements = document.querySelectorAll("[data-cell]");
 const board = document.getElementById("game-board");
 const winningMessageElement = document.getElementById("status-display");
